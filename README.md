@@ -41,6 +41,10 @@ Add or edit raw materials.
 Fields include: Item ID, Item Name, Opening Stock, and Unit of Measurement (UoM).
 Validates if Item ID exists in the database and loads existing details. If not present, allows the creation of a new item.
 
+
+https://github.com/user-attachments/assets/f60e9178-413f-47d5-9664-503893483195
+![Screenshot 2024-09-23 111016](https://github.com/user-attachments/assets/79eff78e-1e04-40a1-b17f-5857b3b6574e)
+
 - **Item Received (Inward)**:
 Manage items received into the store.
 Fields include: Receipt No, Receipt Date, Item ID, and Quantity Received.
