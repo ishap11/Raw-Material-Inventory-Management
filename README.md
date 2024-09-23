@@ -99,10 +99,10 @@ https://github.com/user-attachments/assets/9d042017-1a8a-445e-a142-997b34901dd3
 
 ## Navigation Buttons
 
-- **First**: Navigate to the first employee record in the database.
-- **Previous**: Navigate to the previous employee record relative to the current record.
-- **Next**: Navigate to the next employee record relative to the current record.
-- **Last**: Navigate to the last employee record in the database.
+- **First**: Navigate to the first item record in the database.
+- **Previous**: Navigate to the previous item record relative to the current record.
+- **Next**: Navigate to the next item record relative to the current record.
+- **Last**: Navigate to the last item record in the database.
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
