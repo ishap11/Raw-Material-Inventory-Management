@@ -128,6 +128,8 @@ Currently in development with version 1.2.0 integrating **JsonPowerDB**. Future 
 ## Sources
 
 [JsonPowerDB Documentation](https://login2explore.com/jpdb/docs.html) :  Comprehensive documentation for JsonPowerDB, including setup, queries, and API references.🌟
+Home page: (https://login2explore.com)
+
 
   <p align="right">(<a href="#top">back to top</a>)</p>
   
