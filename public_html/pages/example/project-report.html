@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Raw Material Inventory Management</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+    <!-- jsGrid -->
+    <link rel="stylesheet" href="../../plugins/jsgrid/jsgrid.min.css">
+    <link rel="stylesheet" href="../../plugins/jsgrid/jsgrid-theme.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+</head>
+
+<body class="hold-transition sidebar-mini">
+
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="../../index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="mailto:connect@login2explore.com" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="../../index.html" class="brand-link">
+                <span class="brand-text font-weight-light">Raw Material Management</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+                                 with font-awesome or any other icon font library -->
+
+
+                        <li class="nav-item menu-open">
+
+                            <ul class="nav nav-treeview">
+
+                                <li class="nav-item">
+                                    <a href="../../pages/example/project-add-edit.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Item Management</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../../pages/example/project-inward.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Item Received</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../../pages/example/project-outward.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Item Issued</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item menu-open">
+                            <a href="#" class="nav-link active">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>
+                                    Tables
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+
+                                <li class="nav-item">
+                                    <a href="../../pages/example/project-report.html" class="nav-link active">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Item Report</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <h1>ITEM REPORT</h1>
+                        </div>
+
+                    </div>
+                </div><!-- /.container-fluid -->
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="card">
+
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <div id="jsGrid1">
+
+                            <table class="table table-striped">
+                                <tr class="bg-info">
+                                    <th>Item Id</th>
+                                    <th>Item Name</th>
+                                    <th>Stock</th>
+                                </tr>
+                                <tbody id="myTable">
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <footer class="main-footer">
+            <strong>Copyright &copy; 2024 <a href="https://login2explore.com/"
+                    target="_blank">Login2Xplore</a>.</strong> All rights reserved.
+            <div class="float-right d-none d-sm-inline-block">
+                <p><b> Isha Prajapati</p>
+            </div>
+        </footer>
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+    <!-- jQuery -->
+    <script src="../../plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- jsGrid -->
+    <script src="../../plugins/jsgrid/demos/db.js"></script>
+
+    <script src="../../plugins/jsgrid/jsgrid.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../../dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="../../dist/js/demo.js"></script>
+    <!-- Page specific script -->
+    <script type='text/javascript' src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+    <script>
+        getItem();
+        function getIdJsonObj(i) {
+            var item_id = i.toString();
+            var itemid = item_id;
+            var jsonStr = {
+                item_id: itemid
+            };
+            return JSON.stringify(jsonStr);
+        }
+
+        function fillData(jsonObj) {
+            saveRecNo2LS(jsonObj);
+            var record = JSON.parse(jsonObj.data).record;
+            var table = document.getElementById("myTable");
+            var row = `<tr>
+                    <td>${record.item_id}</td>      
+                    <td>${record.item_name}</td>    
+                    <td>${record.opening_stock}</td>  
+                </tr>`;
+            table.innerHTML += row;
+        }
+
+
+        function saveRecNo2LS(jsonObj) {
+            var lvData = JSON.parse(jsonObj.data);
+            localStorage.setItem('recno', lvData.rec_no);
+        }
+
+        function getItem() {
+            var i = 1;
+            while (true) {
+                var itemIdJsonObj = getIdJsonObj(i);
+                console.log('Fetching item with ID:', i);
+                var getRequest = createGET_BY_KEYRequest(connToken, itemDBName, itemRelationName, itemIdJsonObj);
+                jQuery.ajaxSetup({ async: false });
+                var resJsonObj = executeCommandAtGivenBaseUrl(getRequest, jpdbBaseURL, jpdbIRL);
+                jQuery.ajaxSetup({ async: true });
+                console.log('Response:', resJsonObj);
+                if (resJsonObj.status === 400 && resJsonObj.message === 'DATA NOT FOUND') {
+                    break;
+                } else if (resJsonObj.status === 200) {
+                    fillData(resJsonObj);
+                }
+                i++;
+            }
+        }
+    </script>
+</body>
+
+</html>
