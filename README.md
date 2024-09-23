@@ -112,21 +112,3 @@ Currently in development with version 1.2.0 integrating JsonPowerDB. Future upda
 
   <p align="right">(<a href="#top">back to top</a>)</p>
   
-
-
-
-
-https://user-images.githubusercontent.com/91370703/222535768-ac84c78f-7bc5-4318-9045-4fc4b5e84c88.mp4
-
-## Screenshots
----
-
-![Form](https://github.com/GargParas/Raw-Material-Inventory-Management/blob/main/images/Screenshot%20(33).png)
-![Item Management](https://github.com/GargParas/Raw-Material-Inventory-Management/blob/main/images/Screenshot%20(34).png)
-![Item Issued](https://github.com/GargParas/Raw-Material-Inventory-Management/blob/main/images/Screenshot%20(39).png)
-![Item Received](https://github.com/GargParas/Raw-Material-Inventory-Management/blob/main/images/Screenshot%20(37).png)
-![Report Preparing](https://github.com/GargParas/Raw-Material-Inventory-Management/blob/main/images/Screenshot%20(35).png)
-![Report](https://github.com/GargParas/Raw-Material-Inventory-Management/blob/main/images/Screenshot%20(36).png)
-
-
-
