@@ -36,26 +36,26 @@ JsonPowerDB is a Real-time, High Performance, Lightweight and Simple to Use, Res
 
 ## Features 
 
-- Item Management:
+- **Item Management**:
 Add or edit raw materials.
 Fields include: Item ID, Item Name, Opening Stock, and Unit of Measurement (UoM).
 Validates if Item ID exists in the database and loads existing details. If not present, allows the creation of a new item.
 
-- Item Received (Inward):
+- **Item Received (Inward)**:
 Manage items received into the store.
 Fields include: Receipt No, Receipt Date, Item ID, and Quantity Received.
 Checks if the entered receipt number or item exists in the database. Displays relevant details for valid entries and handles validation errors.
 
-- Item Issued (Outward):
+- **Item Issued (Outward)**:
 Manage items issued from the store for production.
 Fields include: Issue No, Issue Date, Item ID, and Quantity Issued.
 Ensures that issued quantity does not exceed available stock, with validation and error handling for non-existent items or excessive quantity entries.
 
-- Item Report:
+- **Item Report**:
 Generate reports on the stock of items within a given range of Item IDs.
 Displays Item ID, Item Name, and Current Stock in a tabular format for better inventory tracking.
 
-- Stock Management Dashboard:
+- **Stock Management Dashboard**:
 Centralized navigation system with a common header, footer, and left-side navigation menu.
 Easily access different pages (Item Management, Item Received, Item Issued, Item Report) based on the user’s selection.
 
@@ -99,7 +99,7 @@ Easily access different pages (Item Management, Item Received, Item Issued, Item
 
 ## Project Status
 
-Currently in development with version 1.2.0 integrating JsonPowerDB. Future updates will focus on additional features and enhancements based on user feedback.
+Currently in development with version 1.2.0 integrating **JsonPowerDB**. Future updates will focus on additional features and enhancements based on user feedback.
 - Add authentication and user role management.
 - Provide more detailed analytics and reporting.
 - Implement a notification system for low stock alerts.
