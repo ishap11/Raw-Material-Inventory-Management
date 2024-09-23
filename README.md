@@ -41,7 +41,7 @@ Add or edit raw materials.
 Fields include: Item ID, Item Name, Opening Stock, and Unit of Measurement (UoM).
 Validates if Item ID exists in the database and loads existing details. If not present, allows the creation of a new item.
 
-**Video**
+**VIDEO**
 https://github.com/user-attachments/assets/f60e9178-413f-47d5-9664-503893483195
 
 ![Screenshot 2024-09-23 111016](https://github.com/user-attachments/assets/79eff78e-1e04-40a1-b17f-5857b3b6574e)
@@ -51,7 +51,7 @@ Manage items received into the store.
 Fields include: Receipt No, Receipt Date, Item ID, and Quantity Received.
 Checks if the entered receipt number or item exists in the database. Displays relevant details for valid entries and handles validation errors.
 
-**Video**
+**VIDEO**
 https://github.com/user-attachments/assets/91272f16-3b19-483e-a645-ac404225d597
 
 ![Screenshot 2024-09-23 111032](https://github.com/user-attachments/assets/b5492815-ce7d-4a83-b4d9-17e621abe6cc)
@@ -61,7 +61,7 @@ Manage items issued from the store for production.
 Fields include: Issue No, Issue Date, Item ID, and Quantity Issued.
 Ensures that issued quantity does not exceed available stock, with validation and error handling for non-existent items or excessive quantity entries.
 
-**Video**
+**VIDEO**
 https://github.com/user-attachments/assets/00d0ccc2-ff6e-4dfd-8850-8fa7204c0168
 
 ![Screenshot 2024-09-23 111119](https://github.com/user-attachments/assets/c7f630c9-7716-42ed-818d-9ea4762a314f)
@@ -70,14 +70,14 @@ https://github.com/user-attachments/assets/00d0ccc2-ff6e-4dfd-8850-8fa7204c0168
 Generate reports on the stock of items within a given range of Item IDs.
 Displays Item ID, Item Name, and Current Stock in a tabular format for better inventory tracking.
 
-**Video**
+**VIDEO**
 https://github.com/user-attachments/assets/86fceeb6-0904-4757-87e2-333540b39bc8
 
 - **Stock Management Dashboard**:
 Centralized navigation system with a common header, footer, and left-side navigation menu.
 Easily access different pages (Item Management, Item Received, Item Issued, Item Report) based on the user’s selection.
 
-**Video**
+**VIDEO**
 https://github.com/user-attachments/assets/9d042017-1a8a-445e-a142-997b34901dd3
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
