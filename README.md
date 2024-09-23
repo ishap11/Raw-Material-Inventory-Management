@@ -1,4 +1,4 @@
-# RAW-MATERIAL-INVENTORYI-MANAGEMENT
+# RAW-MATERIAL-INVENTORY-MANAGEMENT
 
 <!-------------------------------------------------------------------------------------------------------------------------------------->
 
@@ -76,8 +76,6 @@ Easily access different pages (Item Management, Item Received, Item Issued, Item
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-## Video
----
 ## Navigation Buttons
 
 - **First**: Navigate to the first employee record in the database.
